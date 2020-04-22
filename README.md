@@ -5,6 +5,7 @@ I already have my online portfolio at www.merehan.com, but it's another try to c
 <div> <a href="https://bulma.io">
 <img src="https://bulma.io/images/made-with-bulma--dark.png" alt="Made with Bulma" width="200" height="auto">
 </a><div>
+<br/>
 
 <div><p> I proudly annouce that I finished my first concept for my personal website design from scratch. </p></div>
 
