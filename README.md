@@ -1,17 +1,12 @@
 # Personal Portfolio
 I already have my online portfolio at www.merehan.com, but it's another try to code my own portfolio from scratch with Bulma framework since I was working as Front-end developer and already have experience working with HTML, CSS and JS. 
-
+<br/>
+<br/>
 <div> <a href="https://bulma.io">
 <img src="https://bulma.io/images/made-with-bulma--dark.png" alt="Made with Bulma" width="200" height="auto">
 </a><div>
-<br/>
-<br/> 
-<br/>
-<br/>
 
 <div><p> I proudly annouce that I finished my first concept for my personal website design from scratch. </p></div>
-<br/>
-<br/>
 
 <h2> What's included: </h2>
 
