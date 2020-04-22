@@ -4,7 +4,7 @@
 <!--Meta tags-->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>UX/UI Designer | Merehan Elamrosy</title>
+<title>Merehan Elamrosy - Blog Post</title>
 
 <!-- mobile responsive meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,11 +41,18 @@
 <body>
 
 <!-- Hero Section/ Homepage -->
-<section class="hero has-background-color has-text-centered is-medium  is-fullheight  home">
+<section class="hero has-background-white">
   <div class="hero-head ">
-    <div class="container">
+    <div class="container is-fluid">
       <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
+          <a class="all-logo" href="index.html">
+            <!--       <object data="images/logo-me-black-08.svg">
+            </object>-->
+            <div id="black-logo" >
+            </div>
+          </a>
+          
           <!-- mobile nav -->
           <a role="button" class="navbar-burger has-background-info"  data-target="navMenu" aria-label="menu" aria-expanded="false">
             <span aria-hidden="true"></span>
@@ -55,20 +62,20 @@
         </div>
         
         <!-- desktop nav -->
-        <div class="navbar-menu" id="navMenu">
+        <div class="navbar-menu" id="navigation">
           <div class="navbar-start">
           </div>
           <div class="navbar-end " >
-            <a class="navbar-item strike has-text-white" href="about.html">
+            <a class="navbar-item strike has-text-black" href="about.html">
               About ME
             </a>
-            <a class="navbar-item strike has-text-white" href="portfolio.html">
+            <a class="navbar-item strike has-text-black" href="portfolio.html">
               Work
             </a>
-            <a class="navbar-item strike has-text-white" href="blog.html">
+            <a class="navbar-item strike has-text-black" href="blog.html">
               Blog
             </a>
-            <a class="navbar-item strike has-text-white">
+            <a class="navbar-item strike has-text-black">
               Say Hello
             </a>
             <div class="level">
@@ -76,17 +83,17 @@
                 <div class="level-item">
                   <!-- social icon -->
                   
-                  <a class="nav-icon" href="#">
+                  <a class="nav-icon has-text-black" href="#">
                     <i class="fab fa-facebook-square fa-2x"></i>
                   </a>
                 </div>
                 <div class="level-item">
-                  <a  class="nav-icon"  href="#">
+                  <a  class="nav-icon has-text-black"  href="#">
                     <i class="fab fa-dribbble-square fa-2x"></i>
                   </a>
                 </div>
                 <div class="level-item">
-                  <a   class="nav-icon"  href="#">
+                  <a   class="nav-icon has-text-black"  href="#">
                     <i class="fab fa-linkedin fa-2x"></i>
                   </a>
                 </div>
@@ -99,10 +106,8 @@
         </div>
       </nav>
       
-      <!-- mobile burger nav script-->
-      
-      <script> 
-		
+      <!--Script to slide in from the side when clicked on span element-->
+      <script>		
 		$(document).ready(function() {
 
   // Check for click events on the navbar burger icon
@@ -114,33 +119,23 @@
 
   });
 });
-		</script>
-      
-      <!--  nav ends -->
+</script>
+      <!--  /nav -->
       
     </div>
   </div>
-  <div class="hero-body home">
-    <div class="container">
+  
+  <!-- blog post title -->
+  <div class="hero-body blog-single">
+    <div class="container is-fluid">
       <div class="columns is-multiline  is-centered">
         <div class="column is-two-thirds">
-          <!-- Animated logo -->
-          <!-- <object id="my-svg" type="image/svg+xml" data="images/logo_animated.svg" style="max-width: 256px;">
-          </object>-->
-          <div id="white-logo"  class="logo">
-          </div>
-          
-          <!-- Title -->
           <div class="column is-full">
-            <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-white home-title"> UX/UI Designer </h1>
+            <h1 class="title is-spaced is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-black post-title has-text-centered"> Blog </h1>
           </div>
-          <div class="column is-full is-centered">
-            <div class="column">
-              <a href="#sectionTwo">
-                <span class="icon has-text-white" style="vertical-algin:middle;">
-                <i class="fas fa-2x fa-angle-double-down"></i></span>
-              </a>
-            </div>
+          <div class="column is-full">
+            <!-- Subtitle -->
+            <h2 class="subtitle is-spaced is-size-5-desktop  has-text-black  has-text-centered"> Few selection of my articles </h2>
           </div>
         </div>
       </div>
@@ -148,20 +143,18 @@
   </div>
 </section>
 
-<!-- / hero section -->
+<!-- / hero section and blog post title -->
 
-<!-- blog posts-->
-<section class="section blog-posts  home-blog  is-medium " id="sectionTwo">
-  <div class="container is-narrow">
-    <h1 class="title is-spaced is-size-1-desktop is-size-4-mobile has-text-black  has-text-centered">Blog</h1>
-    <h2 class="subtitle is-size-5-desktop is-spaced has-text-black  has-text-centered"> Latest Articles </h2>
+<!-- posts -->
+<section class="section posts  is-medium " id="sectionTwo">
+  <div class="container is-fluid">
     <div class="blog-grid">
       <div class="columns is-multiline is-mobile">
         <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
           <div class="card">
             <div class="card-image ">
               <figure class="image is-4by3">
-                <img src="images/blog/still.jpg" alt="Placeholder image">
+                <img src="images/blog/imac.jpg" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
@@ -177,7 +170,7 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="images/blog/write.jpg" alt="Placeholder image">
+                <img src="images/blog/office.jpg" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
@@ -194,7 +187,60 @@
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="images/blog/imac.jpg" alt="Placeholder image">
+                <img src="images/blog/startup.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="title is-4"> Lorem ipsum dolor </div>
+              <div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. </div>
+              <a class="button is-link" href="blog-single.html">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/blog/still.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="title is-4"> Lorem ipsum dolor </div>
+              <div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. </div>
+              <a class="button is-link" href="blog-single.html">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- second row -->
+        <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/blog/ux-blog-body.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="title is-4"> Lorem ipsum dolor </div>
+              <div class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus nec iaculis mauris. </div>
+              <a class="button is-link" href="blog-single.html">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="images/blog/ux-blog-post.jpg" alt="Placeholder image">
               </figure>
             </div>
             <div class="card-content">
@@ -211,6 +257,8 @@
     </div>
   </div>
 </section>
+
+<!-- /posts-->
 
 <!-- footer-->
 <footer class="section footer is-primary is-small has-text-centered">
@@ -240,8 +288,8 @@
 <!-- jQuery -->
 <script src="plugins/jQuery/jquery.min.js"></script>
 <!-- Bootstrap JS -->
-<!--<script src="plugins/bootstrap/bootstrap.min.js"></script>
---><!-- slick slider -->
+<!--<script src="plugins/bootstrap/bootstrap.min.js"></script>-->
+<!-- slick slider -->
 <script src="plugins/slick/slick.min.js"></script>
 <!-- filter -->
 <script src="plugins/shuffle/shuffle.min.js"></script>
