@@ -39,6 +39,7 @@ body, button, input, select, textarea {
 nav {
   padding: 2.2rem;
 }
+
 nav.navbar {
   font-size: 1.1rem !important;
   box-shadow: 0px 0px !important
@@ -97,9 +98,6 @@ nav.navbar {
   color: #ffffff;
   background-color: transparent;
 }
-.is-active {
-  color: black;
-}
 .navbar-burger {
   color: #fff;
 }
@@ -114,6 +112,26 @@ nav.navbar {
 }
 .navbar-burger:visited {
   color: #fff;
+}
+@media screen and (max-width: 1023px)
+{ .navbar-menu.is-active {
+	background-color:#000 !important;
+	display: flex !important;
+	justify-content: right;
+}
+}
+
+@media screen and (max-width: 1023px)
+{ .navbar-menu.is-active.text-color {
+	background-color:#fff !important;
+}
+}
+
+@media screen and (max-width: 1023px)
+{ .navbar-menu .level  {
+	visibility: hidden!important;
+	position:absolute!important;
+}
 }
 /* mobile menu */
 .overlay {
