@@ -119,20 +119,21 @@ nav.navbar {
 	display: flex !important;
 	justify-content: right;
 }
-}
 
-@media screen and (max-width: 1023px)
-{ .navbar-menu.is-active.text-color {
+	.navbar-menu.is-active.text-color {
 	background-color:#fff !important;
 }
-}
-
-@media screen and (max-width: 1023px)
-{ .navbar-menu .level  {
+	
+ .navbar-menu .level  {
 	visibility: hidden!important;
 	position:absolute!important;
+	left:9999px;
 }
+	
 }
+
+
+
 /* mobile menu */
 .overlay {
   height: 100%;
